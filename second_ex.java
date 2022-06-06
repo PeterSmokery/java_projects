@@ -12,6 +12,10 @@ public class second_ex {
             System.out.println("это не натуральное число");
             System.exit(1);
         }
+        if (n > Integer.MAX_VALUE) {
+            System.out.println("значение велико для быстрого вычисления");
+            System.exit(1);
+        }
         if (n == 0) {
             System.out.println("нуль не натуральное число ");
             System.exit(1);
