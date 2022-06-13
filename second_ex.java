@@ -1,3 +1,5 @@
+
+// +Написать программу вычисления n-ого треугольного числа.
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
