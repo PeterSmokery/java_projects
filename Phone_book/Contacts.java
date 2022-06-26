@@ -6,7 +6,6 @@ public class Contacts {
     private String surname;
     private String country;
     private String number;
-    private String enderline;
 
     /**
      * шаблон для контакта
@@ -17,7 +16,6 @@ public class Contacts {
         this.surname = surname;
         this.country = country;
         this.number = number;
-        this.enderline = "-----";
 
     }
 
@@ -25,16 +23,14 @@ public class Contacts {
      * шаблон для контакта, где элементы в однной строке
      */
     public String getContactsinRow() {
-        return String.format("%s %s %s %s %s\n%s\n", this.id, this.name, this.surname, this.number, this.country,
-                this.enderline);
+        return String.format("%s %s %s %s %s\n%s\n", this.id, this.name, this.surname, this.number, this.country);
     }
 
     /**
      * шаблон для контракта,где каждый элемент в отдельной строке
      */
     public String getContactsinRows() {
-        return String.format("%s\n%s\n%s\n%s\n%s\n%s\n", this.id, this.name, this.surname, this.number, this.country,
-                this.enderline);
+        return String.format("%s\n%s\n%s\n%s\n%s\n%s\n", this.id, this.name, this.surname, this.number, this.country);
     }
 
 }
