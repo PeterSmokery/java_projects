@@ -23,14 +23,14 @@ public class Contacts {
      * шаблон для контакта, где элементы в однной строке
      */
     public String getContactsinRow() {
-        return String.format("%s %s %s %s %s\n%s\n", this.id, this.name, this.surname, this.number, this.country);
+        return String.format("%s %s %s %s %s\n", this.id, this.name, this.surname, this.number, this.country);
     }
 
     /**
      * шаблон для контракта,где каждый элемент в отдельной строке
      */
     public String getContactsinRows() {
-        return String.format("%s\n%s\n%s\n%s\n%s\n%s\n", this.id, this.name, this.surname, this.number, this.country);
+        return String.format("%s\n%s\n%s\n%s\n%s\n", this.id, this.name, this.surname, this.number, this.country);
     }
 
 }
