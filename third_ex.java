@@ -13,6 +13,7 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class third_ex {
+
     public static void main(String[] args) throws InputMismatchException {
         try {
             int a = get_number();
