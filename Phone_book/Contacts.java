@@ -30,7 +30,7 @@ public class Contacts {
      * шаблон для контракта,где каждый элемент в отдельной строке
      */
     public String getContactsinRows() {
-        return String.format("%s\n%s\n%s\n%s\n%s\n", this.id, this.name, this.surname, this.number, this.country);
+        return String.format("%s\n%s\n%s\n%s\n%s\n\n", this.id, this.name, this.surname, this.number, this.country);
     }
 
 }
